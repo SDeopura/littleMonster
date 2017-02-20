@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var monsterImg: UIImageView!
+    @IBOutlet weak var heartImg: DragImage!
+    @IBOutlet weak var foodImg: DragImage!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,11 +30,7 @@ class ViewController: UIViewController {
         monsterImg.startAnimating()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    
 
 }
 
