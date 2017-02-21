@@ -64,6 +64,13 @@
                                     </imageView>
                                 </subviews>
                             </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="HtF-Mx-USO" customClass="MonsterImg" customModule="littleMonster" customModuleProvider="target">
+                                <rect key="frame" x="6" y="127" width="430" height="400"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="430" id="RVe-Pu-jzy"/>
+                                    <constraint firstAttribute="height" constant="400" id="iaP-1w-Mm7"/>
+                                </constraints>
+                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="Wmg-QO-NzC">
                                 <rect key="frame" x="15" y="114" width="290" height="98"/>
                                 <subviews>
@@ -75,13 +82,6 @@
                                     </imageView>
                                 </subviews>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="HtF-Mx-USO">
-                                <rect key="frame" x="6" y="127" width="430" height="400"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="430" id="RVe-Pu-jzy"/>
-                                    <constraint firstAttribute="height" constant="400" id="iaP-1w-Mm7"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -106,6 +106,9 @@
                         <outlet property="foodImg" destination="vqj-lJ-7cp" id="bOe-ep-uTT"/>
                         <outlet property="heartImg" destination="o4R-oF-poY" id="7Lc-vi-Ewl"/>
                         <outlet property="monsterImg" destination="HtF-Mx-USO" id="RfP-BS-lh1"/>
+                        <outlet property="penalty1Img" destination="9xv-ee-x4W" id="eqZ-W3-hcL"/>
+                        <outlet property="penalty2Img" destination="IcA-Tu-auK" id="ah2-n4-EQU"/>
+                        <outlet property="penalty3Img" destination="OhC-TW-C41" id="zgO-hI-4fC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
